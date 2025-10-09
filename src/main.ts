@@ -50,3 +50,7 @@ button?.addEventListener("click", () => {
     throw new Error("Missing score element.");
   }
 });
+
+// 4. auto clicker
+
+setInterval(updateCounter, 1000);
